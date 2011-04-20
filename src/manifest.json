@@ -1,0 +1,14 @@
+{
+  "name": "YUI Loader for Chrome Extensions",
+  "version": "1.0",
+  "description": "Modify YUI Get to use YUI easily on your chrome extensions",
+  "browser_action": {
+    "default_title": "YUI Loader"
+  },
+
+  
+  "background_page": "bg.html",
+  "permissions": [
+    "http://yui.yahooapis.com/*"
+  ]
+}
